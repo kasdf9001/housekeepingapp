@@ -6,6 +6,10 @@
 /tmp
 /out-tsc
 
+# environment variables
+/src/environment/environment.prod.ts
+/src/environment/environment.ts
+
 # dependencies
 /node_modules
 
@@ -41,6 +45,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-# Compile directory (?)
-/public/
